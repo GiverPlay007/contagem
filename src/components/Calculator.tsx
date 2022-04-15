@@ -18,17 +18,17 @@ export function Calculator() {
       <form onSubmit={calculate}>
         <div className={styles.inputBlock}>
           <label htmlFor="groupWeight">Peso de 10 itens</label>
-          <input id="groupWeight" type="number" required/>
+          <input id="groupWeight" type="number" defaultValue={0} min={0} required/>
         </div>
 
         <div className={styles.inputBlock}>
           <label htmlFor="totalWeight">Peso total</label>
-          <input id="totalWeight" type="number" required/>
+          <input id="totalWeight" type="number" defaultValue={0} min={0} required/>
         </div>
 
         <div className={styles.inputBlock}>
           <label htmlFor="tare">Tara</label>
-          <input id="tare" type="number" required defaultValue={0}/>
+          <input id="tare" type="number" defaultValue={0} min={0} required/>
         </div>
 
         <div className={styles.inputBlock}>
