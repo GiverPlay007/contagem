@@ -20,12 +20,19 @@
     align-items: left;
 
     button {
+      padding: 0.15rem 1.2rem;
       margin-top: 1rem;
+      align-self: center;
+      
       width: 10rem;
       height: 2.5rem;
-      align-self: center;
+      border-radius: 50px;
+      border: none;
 
+      cursor: pointer;
       font-size: 16px;
+      color: #ffffff;
+      background-color: #E83F5B;
     }
   }
 }
@@ -37,7 +44,7 @@
   align-items: center;
   justify-content: space-between;
 
-  height: 2rem;
+  height: 1.75rem;
   margin: 0.5rem 0;
 
   input {
